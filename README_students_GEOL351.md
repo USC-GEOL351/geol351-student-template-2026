@@ -4,7 +4,7 @@ This repository is your **personal workspace for GEOL351**.
 You will keep it for the entire semester.
 
 You will:
-- view lab instructions (HTML)
+- view lab instructions (HTML) and lab notebooks (jupyter or quarto)
 - keep notes or notebooks from labs
 - develop your final project
 
@@ -17,16 +17,16 @@ You will **not** submit work through GitHub unless explicitly asked.
 This repo has three main folders:
 
 ```
-labs/            # lab instructions (pulled from the instructor)
-work/            # your lab notes, notebooks, scratch work
+lab_site/            # lab instructions (pulled from the instructor)
+work/            # your lab notes, notebooks, figures, scratch work
 final_project/   # your final project materials
 ```
 
 ### Important rule
-**Do not edit anything inside `labs/`.**
+**Do not edit anything inside `lab_site/`.**
 
-Labs are distributed by the instructor and updated centrally.  
-If you need to modify something, copy it into `work/`.
+Labs are distributed from Github Classroom and updated centrally.  
+If you need to modify something, copy it into `work/lab...`.
 
 ---
 
@@ -68,7 +68,7 @@ Each time a new lab is released:
 
 The new lab will appear in the `labs/` folder.
 
-Open labs by double-clicking the HTML files.
+Open labs by right clicking the HTML file of interest and seclecting "open in browser" (or similar depending on your operating system).
 
 ---
 
@@ -89,7 +89,7 @@ By accepting the GitHub Classroom invite:
 - your repository was created
 - the instructor automatically has access
 
-If asked to share work, make sure it is **pushed to GitHub**.
+If asked to share work, make sure it is **pushed to GitHub**. Pushing to your repo will not push to the master class materials. 
 
 ---
 
@@ -99,4 +99,4 @@ If asked to share work, make sure it is **pushed to GitHub**.
 - If you edited something in `labs/`: revert it or re-pull
 - If GitHub Desktop is confusing: ask early
 
-You are **not** expected to be Git experts.
+You are **not** expected to be Git experts. Frankly, I'm not an expert either, but if you have trouble we'll figure it out, or come up with an alternative workflow.
